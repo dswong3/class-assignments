@@ -1,3 +1,43 @@
 ../../../../../Desktop/eeb-177/class-assignments/classwork-Tues-1-17.txt
 ../../../../../Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt
 ../../../../../Desktop/eeb-177/class-assignments/classwork-Thursday-1-19.txt
+  715  man grep
+  716  grep Orchidacea cep-taxa.txt 
+  717  grep falcon cep-taxa.txt 
+  718  grep Falcon cep-taxa.txt 
+  719  grep -i Macaws cep-taxa.txt 
+  720  grep -i ara cep-taxa.txt 
+  721  grep -i -w ara cep-taxa.txt 
+  722  grep -B 3 Cebus cep-taxa.txt 
+  723  grep -B 3 -i -w Cebus cep-taxa.txt 
+  724  grep -n iguanas
+  725  cd ~/Desktop
+  726  cd eeb-177/CSB/unix/sandbox/
+  727  grep -n -i -w iguana cep-taxa.txt 
+  728  grep -v -i -w ara cep-taxa.txt 
+  729  grep -n -v -i -w ara cep-taxa.txt 
+  730  grep -c  -v -i -w ara cep-taxa.txt 
+  731  grep -c -v -i -w ara cep-taxa.txt 
+  732  ls -l
+  733  cd ..
+  734  cd sandbox/
+  735  find ../sandbox/
+  736  find ../data/
+  737  find ../data/ | wc -l
+  738  find -name "30.txt" ../data/
+  739  find ../data/ -name "n30.txt"
+  740  find ../data/ -iname "*about*"
+  741  find ../data/ -iname "*classwork*"
+  742  find ../eeb-177/ -iname "*classwork*"
+  743  find ../../../../../Desktop/ -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  744  git add ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  745  cd ../../../
+  746  cd class-assignments/
+  747  git add classwork-Tuesday-1-24.txt 
+  748  git commit -m "classwork for Tues 1-24"
+  749  git push
+  750  touch permissions.txt
+  751  ls-l
+  752  ls -l
+  753  history
+  754  history 40 >> ~/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
