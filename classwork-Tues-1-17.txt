@@ -479,3 +479,12 @@ I will place my fun in class work here.
   478  history
   479  >>
   480  history >> classwork-Tues-1-17.txt
+-
+.
+..
+badly named file.txt
+classwork-Tues-1-17.txt
+.config
+.git
+README.txt
+thursday-1-12-2017
