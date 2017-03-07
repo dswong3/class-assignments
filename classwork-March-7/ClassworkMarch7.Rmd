@@ -1,0 +1,30 @@
+---
+title: "classwork-March-7"
+author: "Dustin Wong"
+date: "March 7, 2017"
+output: html_document
+---
+
+
+
+```{r}
+
+library(paleobioDB)
+library(paleotree)
+
+data(graptPBDB)
+head(graptOccPBDB)
+
+#get species sorted occurances
+occSpecies <- taxonSortPBDBocc(graptOccPBDB, rank = "species")
+plotOccData(occSpecies, groupLabel = "Species")
+
+graphTimeSpecies<-occData2timeList(occList = occSpecies)
+
+taxicDivDisc(graphTimeSpecies)
+
+head(graphTimeSpecies)
+
+head(occSpecies)
+
+```
